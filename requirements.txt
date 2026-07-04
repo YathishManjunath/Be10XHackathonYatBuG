@@ -1,0 +1,6 @@
+streamlit>=1.38
+pandas>=2.2
+plotly>=5.22
+openai>=1.40
+anthropic>=0.34
+google-genai>=1.0
