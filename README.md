@@ -58,6 +58,23 @@ requirements.txt
 
 ## 🚀 Running it
 
+### Windows (double-click or terminal)
+
+```bat
+setup.bat    REM first time only — creates .venv and installs dependencies
+start.bat    REM launches EventSync AI (auto-runs setup if needed)
+```
+
+### macOS / Linux
+
+```bash
+chmod +x setup.sh start.sh   # first time only
+./setup.sh                   # first time only — creates .venv and installs dependencies
+./start.sh                   # launches EventSync AI (auto-runs setup if needed)
+```
+
+### Manual (any OS)
+
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
